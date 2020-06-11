@@ -1,0 +1,43 @@
+@import '../../../../Resources/Styles/library';
+@import '../variables';
+
+.container
+{
+    min-height: 100%;
+    overflow: auto;
+    position: fixed;   
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(#000000, 0.75) !important;
+}
+
+.title
+{
+    height: $headerHeight;
+    line-height: $headerHeight;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-indent: $leftSiderLeftIndent;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menuItem
+{
+    padding: 24px !important;
+}
+
+.menuItemElem
+{
+    color: #FFFFFF;
+    text-indent: $leftSiderLeftIndent;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.button
+{
+    margin-left: $leftSiderLeftIndent;
+    text-transform: uppercase;
+}

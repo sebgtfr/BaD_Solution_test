@@ -1,0 +1,5 @@
+
+@function percent($value)
+{  
+    @return (100% * ($value)); 
+}
